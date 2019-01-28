@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Music-OnTheGo</string>
+
+    <string name="songs">My Music</string>
+
+    <string name="albumName">Album Name</string>
+
+    <string name="singerName">Singer Name</string>
+
+    <string name="album">Albums</string>
+
+    <string name="album1">Albums</string>
+
+    <string name="genre">Genre</string>
+
+    <string name="playlist">My Playlist</string>
+
+    <string name="song">Song Name</string>
+
+    <string name="playlistName">Playlist Name</string>
+
+    <string name="noOfSongs">No Of Songs</string>
+
+    <string name="genre1">Jazz</string>
+    <string name="genre2">Rock Music</string>
+    <string name="genre3">Pop Music</string>
+    <string name="genre4">Electronica</string>
+    <string name="genre5">Hip Hop</string>
+    <string name="genre6">Trap Music</string>
+    <string name="genre7">Heavy Metal</string>
+    <string name="genre8">Orchestra</string>
+    <string name="genre9">Opera</string>
+    <string name="genre10">Disco</string>
+    <string name="genre11">Folks</string>
+    <string name="genre12">Blues</string>
+    <string name="genre13">Punk Rock</string>
+    <string name="genre14">Dubstep</string>
+
+    <string name="main_activityDescription">This screens shows My Music,Albums,Genre, and My playlist. A user can open all these activities in order to get detailed view of them and can use media controls to rewind, play/pause, and forward the music respectively. This application uses mediaPlayer class to control the playback of audio.</string>
+
+    <string name="myMusicDescription">This screen shows favourite music of the user. The user can press cross in order to return to main menu, can press plus sign in order to add a song to the playlist and can also download a song.</string>
+
+    <string name="albumDescription">On this screen the user can see all the albums with thumbnail and can press on each album to open it.</string>
+
+    <string name="genreDescription">On this screen the user can see Musical Genres. The user can press each of the genre in order to see a list of songs of that genre.</string>
+
+    <string name="playlistDescription">On this screen the user can see all the playlist created by the user. The user can press on each of the playlist in order to see the list of songs.</string>
+</resources>
+

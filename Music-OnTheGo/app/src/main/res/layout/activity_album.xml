@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_album"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.music_onthego.album">
+
+    <ScrollView
+        android:layout_marginBottom="72dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FFF176"
+                android:padding="8dp"
+                android:text="@string/albumDescription" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <RelativeLayout style="@style/albumRelativeLayout1">
+
+                    <ImageView
+                        android:id="@+id/album1"
+                        style="@style/albumsImage"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/album" />
+
+                    <TextView
+                        android:id="@+id/album2"
+                        style="@style/textView1"
+                        android:layout_below="@id/album1"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="sans-serif"
+                        android:text="@string/albumName" />
+
+                    <TextView
+                        style="@style/textView2"
+                        android:layout_below="@+id/album2"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/singerName" />
+
+                </RelativeLayout>
+
+                <RelativeLayout style="@style/albumRelativeLayout1">
+
+                    <ImageView
+                        android:id="@+id/album3"
+                        style="@style/albumsImage"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/album" />
+
+                    <TextView
+                        android:id="@+id/album4"
+                        style="@style/textView1"
+                        android:layout_below="@id/album3"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="sans-serif"
+                        android:text="@string/albumName" />
+
+                    <TextView
+                        style="@style/textView2"
+                        android:layout_below="@+id/album4"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/singerName" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <RelativeLayout style="@style/albumRelativeLayout1">
+
+                    <ImageView
+                        android:id="@+id/album5"
+                        style="@style/albumsImage"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/album" />
+
+                    <TextView
+                        android:id="@+id/album6"
+                        style="@style/textView1"
+                        android:layout_below="@id/album5"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="sans-serif"
+                        android:text="@string/albumName" />
+
+                    <TextView
+                        style="@style/textView2"
+                        android:layout_below="@+id/album6"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/singerName" />
+
+                </RelativeLayout>
+
+                <RelativeLayout style="@style/albumRelativeLayout1">
+
+                    <ImageView
+                        android:id="@+id/album7"
+                        style="@style/albumsImage"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/album" />
+
+                    <TextView
+                        android:id="@+id/album8"
+                        style="@style/textView1"
+                        android:layout_below="@id/album7"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="sans-serif"
+                        android:text="@string/albumName" />
+
+                    <TextView
+                        style="@style/textView2"
+                        android:layout_below="@+id/album8"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/singerName" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <RelativeLayout style="@style/albumRelativeLayout1">
+
+                    <ImageView
+                        android:id="@+id/album9"
+                        style="@style/albumsImage"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/album" />
+
+                    <TextView
+                        android:id="@+id/album10"
+                        style="@style/textView1"
+                        android:layout_below="@id/album9"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="sans-serif"
+                        android:text="@string/albumName" />
+
+                    <TextView
+                        style="@style/textView2"
+                        android:layout_below="@+id/album10"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/singerName" />
+
+                </RelativeLayout>
+
+                <RelativeLayout style="@style/albumRelativeLayout1">
+
+                    <ImageView
+                        android:id="@+id/album11"
+                        style="@style/albumsImage"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/album" />
+
+                    <TextView
+                        android:id="@+id/album12"
+                        style="@style/textView1"
+                        android:layout_below="@id/album11"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="sans-serif"
+                        android:text="@string/albumName" />
+
+                    <TextView
+                        style="@style/textView2"
+                        android:layout_below="@+id/album12"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/singerName" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <RelativeLayout style="@style/albumRelativeLayout1">
+
+                    <ImageView
+                        android:id="@+id/album13"
+                        style="@style/albumsImage"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/album" />
+
+                    <TextView
+                        android:id="@+id/album14"
+                        style="@style/textView1"
+                        android:layout_below="@id/album13"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="sans-serif"
+                        android:text="@string/albumName" />
+
+                    <TextView
+                        style="@style/textView2"
+                        android:layout_below="@+id/album14"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/singerName" />
+
+                </RelativeLayout>
+
+                <RelativeLayout style="@style/albumRelativeLayout1">
+
+                    <ImageView
+                        android:id="@+id/album15"
+                        style="@style/albumsImage"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/album" />
+
+                    <TextView
+                        android:id="@+id/album16"
+                        style="@style/textView1"
+                        android:layout_below="@id/album15"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="sans-serif"
+                        android:text="@string/albumName" />
+
+                    <TextView
+                        style="@style/textView2"
+                        android:layout_below="@+id/album16"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/singerName" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <RelativeLayout style="@style/albumRelativeLayout1">
+
+                    <ImageView
+                        android:id="@+id/album17"
+                        style="@style/albumsImage"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/album" />
+
+                    <TextView
+                        android:id="@+id/album18"
+                        style="@style/textView1"
+                        android:layout_below="@id/album17"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="sans-serif"
+                        android:text="@string/albumName" />
+
+                    <TextView
+                        style="@style/textView2"
+                        android:layout_below="@+id/album18"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/singerName" />
+
+                </RelativeLayout>
+
+                <RelativeLayout style="@style/albumRelativeLayout1">
+
+                    <ImageView
+                        android:id="@+id/album19"
+                        style="@style/albumsImage"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/album" />
+
+                    <TextView
+                        android:id="@+id/album20"
+                        style="@style/textView1"
+                        android:layout_below="@id/album19"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="sans-serif"
+                        android:text="@string/albumName" />
+
+                    <TextView
+                        style="@style/textView2"
+                        android:layout_below="@+id/album20"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/singerName" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/controls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:background="#000000"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+
+        <TextView
+            android:id="@+id/songName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1"
+            android:text="@string/song"
+            android:textColor="#FFFFFF" />
+
+
+        <ImageView
+            android:id="@+id/rewind"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:src="@drawable/fastrewind" />
+
+        <Button
+            android:id="@+id/play"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <ImageView
+            android:id="@+id/forward"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:src="@drawable/fastforward" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

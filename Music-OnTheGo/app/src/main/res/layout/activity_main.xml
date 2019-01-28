@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.music_onthego.MainActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="72dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FFF176"
+                android:padding="8dp"
+                android:text="@string/main_activityDescription" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:id="@+id/my_music"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/layout_bg"
+                    android:backgroundTint="#64B5F6"
+                    android:orientation="horizontal"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/songs" />
+
+                    <TextView
+                        style="@style/Songs"
+                        android:text="@string/songs" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/album"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/layout_bg"
+                    android:backgroundTint="#64B5F6"
+                    android:orientation="horizontal"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/album2" />
+
+                    <TextView
+                        style="@style/Songs"
+                        android:layout_marginTop="4dp"
+                        android:text="@string/album1" />
+
+                </LinearLayout>
+
+                <HorizontalScrollView
+                    style="@style/albums"
+                    android:scrollbars="none">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout style="@style/albumRelativeLayout">
+
+                            <ImageView
+                                android:id="@+id/album1"
+                                style="@style/albumsImage"
+                                android:src="@drawable/album" />
+
+                            <TextView
+                                android:id="@+id/album2"
+                                style="@style/textView1"
+                                android:layout_below="@id/album1"
+                                android:fontFamily="sans-serif"
+                                android:text="@string/albumName" />
+
+                            <TextView
+                                style="@style/textView2"
+                                android:layout_below="@+id/album2"
+                                android:text="@string/singerName" />
+
+                        </RelativeLayout>
+
+                        <RelativeLayout style="@style/albumRelativeLayout">
+
+                            <ImageView
+                                android:id="@+id/album3"
+                                style="@style/albumsImage"
+                                android:src="@drawable/album" />
+
+                            <TextView
+                                android:id="@+id/album4"
+                                style="@style/textView1"
+                                android:layout_below="@id/album3"
+                                android:fontFamily="sans-serif"
+                                android:text="@string/albumName" />
+
+                            <TextView
+                                style="@style/textView2"
+                                android:layout_below="@+id/album4"
+                                android:text="@string/singerName" />
+
+                        </RelativeLayout>
+
+                        <RelativeLayout style="@style/albumRelativeLayout">
+
+                            <ImageView
+                                android:id="@+id/album5"
+                                style="@style/albumsImage"
+                                android:src="@drawable/album" />
+
+                            <TextView
+                                android:id="@+id/album6"
+                                style="@style/textView1"
+                                android:layout_below="@id/album5"
+                                android:fontFamily="sans-serif"
+                                android:text="@string/albumName" />
+
+                            <TextView
+                                style="@style/textView2"
+                                android:layout_below="@+id/album6"
+                                android:text="@string/singerName" />
+
+                        </RelativeLayout>
+
+                        <RelativeLayout style="@style/albumRelativeLayout">
+
+                            <ImageView
+                                android:id="@+id/album7"
+                                style="@style/albumsImage"
+                                android:src="@drawable/album" />
+
+                            <TextView
+                                android:id="@+id/album8"
+                                style="@style/textView1"
+                                android:layout_below="@id/album7"
+                                android:fontFamily="sans-serif"
+                                android:text="@string/albumName" />
+
+                            <TextView
+                                style="@style/textView2"
+                                android:layout_below="@+id/album8"
+                                android:text="@string/singerName" />
+
+                        </RelativeLayout>
+
+                        <RelativeLayout style="@style/albumRelativeLayout">
+
+                            <ImageView
+                                android:id="@+id/album9"
+                                style="@style/albumsImage"
+                                android:src="@drawable/album" />
+
+                            <TextView
+                                android:id="@+id/album10"
+                                style="@style/textView1"
+                                android:layout_below="@id/album9"
+                                android:fontFamily="sans-serif"
+                                android:text="@string/albumName" />
+
+                            <TextView
+                                style="@style/textView2"
+                                android:layout_below="@+id/album10"
+                                android:text="@string/singerName" />
+
+                        </RelativeLayout>
+
+
+                    </LinearLayout>
+
+
+                </HorizontalScrollView>
+
+                <LinearLayout
+                    android:id="@+id/genre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/layout_bg"
+                    android:backgroundTint="#64B5F6"
+                    android:orientation="horizontal"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/genre" />
+
+                    <TextView
+                        style="@style/Songs"
+                        android:layout_marginTop="4dp"
+                        android:text="@string/genre" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/playlist"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/layout_bg"
+                    android:backgroundTint="#64B5F6"
+                    android:orientation="horizontal"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/playlist" />
+
+                    <TextView
+                        style="@style/Songs"
+                        android:layout_marginTop="4dp"
+                        android:text="@string/playlist" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/controls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:background="#000000"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/songName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1"
+            android:text="@string/song"
+            android:textColor="#FFFFFF" />
+
+
+        <ImageView
+            android:id="@+id/rewind"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:src="@drawable/fastrewind" />
+
+        <Button
+            android:id="@+id/play"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <ImageView
+            android:id="@+id/forward"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:src="@drawable/fastforward" />
+
+
+    </LinearLayout>
+</RelativeLayout>
